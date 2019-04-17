@@ -12,8 +12,8 @@ namespace DB
         {
             DbConnect dbConnect = new DbConnect();
 
-            //dbConnect.SelectList();
-            dbConnect.Count();
+            dbConnect.SelectList();
+            //dbConnect.Count();
 
             Console.ReadKey();
         }
